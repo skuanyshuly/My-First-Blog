@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog</title>
+	<link rel="stylesheet" href="{% static 'css/post_style.css' %}">
+</head>
+<body>
+	<h1>Our Posts</h1>
+	{% for post in posts %}
+	<div>
+		<p>published: {{ post.published_date }}</p>
+		<h2><a href="">{{ post.title }}</a></h2>
+		<p>{{ post.text|linebreaksbr }}</p>
+		<img src="{% static "images/law.jpg" %}" alt="My image">
+	</div>
+	{% endfor%}
+</body>
+</html>

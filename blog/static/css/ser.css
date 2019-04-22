@@ -1,0 +1,50 @@
+#right{
+margin-left: 600px;
+}
+
+h1{
+  text-align: center;
+  margin: 2rem;
+}
+
+p{
+  text-align: center;
+}
+
+
+.container{
+  margin: auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  background-color: #333;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+
+.social li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+
+
+}
+footer h1, span{
+  color: white;
+}

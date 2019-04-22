@@ -1,0 +1,199 @@
+{%load static%}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <title>HBO</title>
+
+
+  </head>
+  <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+
+        <a class="navbar-brand" href="/">HBO</a><span class="sr-only">(current)</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="series">Series </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Movies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Specials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Kids</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=" "><i class="fa fa-search"></i></a>
+            </li>
+            <li id="right" class="nav-item">
+              <a class="nav-link" href="free_episodes">Free Episodes</a>
+            </li>
+            <li  class="nav-item">
+              <a class="nav-link" href="#">Shedule</a>
+            </li>
+            <button  type="button" class="btn btn-info"><a href="gethbo">Get HBO</a></button>
+          </ul>
+        </div>
+      </nav>
+
+
+
+      <img src="{% static 'images/original.jpg' %}" class="img-fluid" alt="Responsive image">
+
+
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="https://www.hbo.com/content/dam/hbodata/series/veep/episodes/7/61/ep61-default-1920.jpg/_jcr_content/renditions/cq5dam.web.768.432.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Veep</h5>
+                      <p class="card-text">Former president Selina Meyer (Julia Louis-Dreyfus) is tackling new challenges in the final season of this essential comedy.</p>
+                      <a href="#" class="btn btn-primary">Find out more</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                    <img class="card-img-top" src="https://www.hbo.com/content/dam/hbodata/series/barry/episodes/s02/03/barry-s2-ep3-default-1920x1080.jpg/_jcr_content/renditions/cq5dam.web.768.432.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Barry</h5>
+                      <p class="card-text">Bill Hader's hitman-turned-actor takes on his second act, grappling with his past and seeking his place in the spotlight.</p>
+                      <a href="#" class="btn btn-primary">Find out more</a>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            </div>
+
+            <h1>In HBO News</h1>
+
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                  <div class="card">
+                      <img class="card-img-top" src="https://www.hbo.com/content/dam/hbodata/documentaries/hbo-documentaries-1920.jpg/_jcr_content/renditions/cq5dam.web.480.270.jpeg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">HBO Documentary Series to Look Inside the NXIVM Organization</h5>
+                        <p class="card-text">The series will examine the self-improvement group whose leaders have been charged with sex trafficking and racketeering conspiracy.</p>
+                        <a href="#" class="btn btn-dark">Read more</a>
+                      </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                      <img class="card-img-top" src="https://www.hbo.com/content/dam/hbodata/series/perry-mason/article/matthew-tatiana-1920x1080.jpg/_jcr_content/renditions/cq5dam.web.480.270.jpeg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Detective Drama Perry Mason to Star Matthew Rhys and Tatiana Maslany</h5>
+                        <p class="card-text">Robert Downey Jr. will executive-produce the limited series about the lawyer’s early days.</p>
+                        <a href="#" class="btn btn-dark">Read more</a>
+                      </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                      <img class="card-img-top" src="https://www.hbo.com/content/dam/hbodata/global/articles/181108-plot-against-america-announcement/181108-plot-against-america-announcement-1920.jpg/_jcr_content/renditions/cq5dam.web.480.270.jpeg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Winona Ryder, Zoe Kazan and John Turturro to Star in David Simon’s The Plot Against America</h5>
+                        <p class="card-text">Simon is reteaming with Ed Burns to adapt Philip Roth’s acclaimed novel into a miniseries.</p>
+                        <a href="#" class="btn btn-dark">Read more</a>
+                      </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                      <img class="card-img-top" src="https://www.hbo.com/content/dam/hbodata/series/game-of-thrones/articles/s08/190403-s8-red-carpet/190403-got-s8-red-carpet-hero-1920.jpg/_jcr_content/renditions/cq5dam.web.480.270.jpeg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">The Beginning of the End: GoT Season 8 Premieres in New York City</h5>
+                        <p class="card-text">It was a red carpet premiere as epic as the show that inspired it.</p>
+                        <a href="#" class="btn btn-dark">Read more</a>
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="container">
+                <div class="row">
+                  <div class="col-10 col-md-7">
+                      <img src="" alt="">
+                      <h3>Get HBO Anytime, Anywhere</h3>
+                      <p>Discover how you can enjoy HBO’s original series, hit movies, documentaries and more. HBO is available through the HBO NOW streaming app, TV package, or an existing digital subscription</p>
+                      <a href="#" class="btn btn-info">Get it today</a>
+                  </div>
+                  <div class="col-6 col-md-4">.
+                      <h3>DID YOU KNOW?</h3>
+                      <p>You can stream HBO anywhere you go. Watch HBO on your TV, computer, tablet or mobile phone.</p>
+                      <a href="#" class="btn btn-info">Get started</a>
+                  </div>
+                </div>
+            </div>
+
+
+          <footer>
+            <h1>Hollow HBO</h1>
+            <ul class="social">
+              <li>
+                    <a href="#" class="fab fa-instagram"></a>
+              </li>
+              <li>
+                    <a href="#" class="fab fa-facebook"></a>
+              </li>
+              <li>
+                    <a href="#" class="fab fa-youtube"></a>
+              </li>
+              <li>
+                    <a href="#" class="fab fa-linkedin"></a>
+              </li>
+              <li>
+                    <a href="#" class="fab fa-telegram"></a>
+              </li>
+              <li>
+                    <a href="#" class="fab fa-twitter"></a>
+              </li>
+
+            </ul>
+            <div>
+              <span>© 2019 Home Box Office, Inc. All Rights Reserved.
+                <br>This website may contain mature content.</span>
+            </div>
+          </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

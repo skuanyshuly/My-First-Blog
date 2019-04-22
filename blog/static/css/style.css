@@ -1,0 +1,60 @@
+#right{
+margin-left: 600px;
+}
+
+
+.card{
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2px;
+}
+
+/*.container2{
+  display: inline-block;
+  margin-left: 170px;
+}
+.container3{
+margin-left: 150px;
+}
+
+.container1{
+  display: flex;
+  margin-left: 190px;
+
+}
+*/
+
+.container{
+  margin: auto;
+}
+h1{
+  text-align: center;
+  margin: 2rem;
+}
+
+
+.container2, .card{
+  height: 30rem;
+}
+
+footer{
+  background-color: #333;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+
+.social li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+
+
+}
+footer h1, span{
+  color: white;
+}

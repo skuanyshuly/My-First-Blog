@@ -1,0 +1,51 @@
+#right{
+margin-left: 600px;
+}
+
+
+.card{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.container{
+  margin: auto;
+}
+
+
+.block{
+  margin: auto;
+}
+
+/*.img-fliud{
+  width: 2114px;
+}
+*/
+
+#img{
+  width: 100%;
+}
+
+
+footer{
+  background-color: #333;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+
+.social li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+
+
+}
+footer h1, span{
+  color: white;
+}
